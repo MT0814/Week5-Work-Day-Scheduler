@@ -1,0 +1,93 @@
+:root {
+  --light: rgb(255, 255, 255);
+  --dark: rgb(54, 54, 54);
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2em;
+  line-height: 25px;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: var(--dark);
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: var(--dark);
+  border-radius: 0;
+  border-bottom: 7px solid #ffc107;
+}
+
+.description {
+  white-space: pre-wrap;
+  max-width: 100%;
+  width: 100%;
+  /* max-height: 100%; */
+  height: 80px;
+  letter-spacing: 0.12em;
+  color: var(--dark);
+  padding: 0;
+  line-height: 25px;
+}
+
+/* .row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+} */
+
+th#time.hour {
+  color: var(--light);
+  font-weight: 600;
+  padding: 25px;
+  letter-spacing: 0.15em;
+}
+
+.table-bordered td,
+.table-bordered th {
+  border: 1px solid var(--light);
+}
+
+.past {
+  background-color: #bdd7ff;
+  opacity: 70%;
+  color: var(--dark);
+}
+
+.present {
+  background-color: #ffc107;
+  opacity: 70%;
+  color: var(--dark);
+}
+
+.future {
+  background-color: #20c997;
+  opacity: 70%;
+  color: var(--dark);
+}
+
+.fa {
+  color: var(--light);
+}
+
+.fa:hover {
+  color: #fd7e14;
+  /* transition: all 0.3s ease-in-out; */
+}
+
+.container {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
