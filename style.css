@@ -1,5 +1,5 @@
 :root {
-  --light: rgb(255, 255, 255);
+  --light: rgb(242, 242, 242);
   --dark: rgb(54, 54, 54);
 }
 
@@ -29,7 +29,7 @@ p {
 }
 
 #currentDay {
-  color: #80d4bb;
+  color: #a4dfff;
 }
 
 .square-row {
@@ -44,10 +44,10 @@ p {
   color: #777676;
 }
 #now {
-  color: #ffc1b4;
+  color: #fcd4cb;
 }
 #future {
-  color: #80d4bb;
+  color: #a4dfff;
 }
 .description {
   white-space: pre-wrap;
@@ -89,12 +89,12 @@ th#time.hour {
 }
 
 .present {
-  background-color: #f3c4ba;
+  background-color: #fcd4cb;
   color: var(--dark);
 }
 
 .future {
-  background-color: #80d4bb;
+  background-color: #a4dfff;
   color: var(--dark);
 }
 
@@ -104,7 +104,7 @@ th#time.hour {
 }
 
 .fa:hover {
-  color: #ff896e;
+  color: #a4dfff;
   /* transition: all 0.3s ease-in-out; */
   transition: all 0.3s ease, background-position 1ms;
 }
