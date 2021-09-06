@@ -7,6 +7,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1.2em;
   line-height: 25px;
+  background-color: black;
 }
 
 textarea {
@@ -15,25 +16,49 @@ textarea {
   resize: none;
   color: var(--dark);
 }
-
+h1,
+p {
+  color: #fcd4cb;
+}
 .jumbotron {
   text-align: center;
   background-color: transparent;
   color: var(--dark);
   border-radius: 0;
-  border-bottom: 7px solid #ffc107;
+  border-bottom: 7px solid #fcd4cb;
 }
 
+#currentDay {
+  color: #5bdbdd;
+}
+
+.square-row {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  color: var(--light);
+  margin-top: 25px;
+}
+#past {
+  color: #eed9d7;
+}
+#now {
+  color: #ffc1b4;
+}
+#future {
+  color: #adfee6;
+}
 .description {
   white-space: pre-wrap;
   max-width: 100%;
   width: 100%;
   /* max-height: 100%; */
-  height: 80px;
+  /* height: 80px; */
   letter-spacing: 0.12em;
   color: var(--dark);
   padding: 0;
-  line-height: 25px;
+  /* line-height: 25px; */
 }
 
 /* .row {
@@ -41,9 +66,13 @@ textarea {
   height: 80px;
   border-top: 1px solid white;
 } */
+/* .thead.fs-3.text-uppercase {
+  color: #5bdbdd;
+  font-weight: bolder;
+} */
 
 th#time.hour {
-  color: var(--light);
+  color: #fadbd8;
   font-weight: 600;
   padding: 25px;
   letter-spacing: 0.15em;
@@ -51,34 +80,36 @@ th#time.hour {
 
 .table-bordered td,
 .table-bordered th {
-  border: 1px solid var(--light);
+  border: 1px solid #ffad9b;
 }
 
 .past {
-  background-color: #bdd7ff;
-  opacity: 70%;
+  background-color: #eed9d7;
+  opacity: 90%;
   color: var(--dark);
 }
 
 .present {
-  background-color: #ffc107;
-  opacity: 70%;
+  background-color: #ffc1b4;
+  opacity: 90%;
   color: var(--dark);
 }
 
 .future {
-  background-color: #20c997;
+  background-color: #adfee6;
   opacity: 70%;
   color: var(--dark);
 }
 
 .fa {
-  color: var(--light);
+  color: #ffbbac;
+  transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .fa:hover {
-  color: #fd7e14;
+  color: #5bdbdd;
   /* transition: all 0.3s ease-in-out; */
+  transition: all 0.3s ease, background-position 1ms;
 }
 
 .container {

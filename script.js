@@ -2,7 +2,7 @@
 
 var saveButtonEl = $('.fa');
 
-var today = moment().format("[Today is] dddd, MMMM Do YYYY, h:mm a");  
+var today = moment().format("[Today is] ddd, MMM DD YYYY, h:mm a");  
 $('#currentDay').text(today);
 
 
@@ -39,11 +39,13 @@ saveButtonEl.on('click', TaskSave);
 
 function TaskSave(event) {
     event.preventDefault();
+    alert("The task was saved.");
   console.log('taskSave')
     var taskText = $(this).parent().siblings('#task').children('.description').val();
     var taskTime = $(this).parent().siblings('#time').text();
     localStorage.setItem(taskTime, taskText)
-    console.log($(this))
+   
+
 
 }
 

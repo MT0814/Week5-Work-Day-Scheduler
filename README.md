@@ -30,15 +30,16 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-The following animation demonstrates the application functionality:
-
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
-
 ## Others
 
-![index.html screenshot](./assets/start.png)
+For a better user experience:
 
-[Click me for website](https://mt0814.github.io/Week4-HW-Code-Quiz/)
+1. Added an alert to let the user know the task was saved after he or she clicks the save button.
+2. Added colored square icon to show the user past, now, and fututre.
+
+![index.html screenshot](./screenshot.png)
+
+[Click me for website](https://mt0814.github.io/Week5-Work-Day-Scheduler/)
 
 ---
 
