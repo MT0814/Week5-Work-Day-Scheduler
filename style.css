@@ -29,7 +29,7 @@ p {
 }
 
 #currentDay {
-  color: #5bdbdd;
+  color: #80d4bb;
 }
 
 .square-row {
@@ -41,13 +41,13 @@ p {
   margin-top: 25px;
 }
 #past {
-  color: #eed9d7;
+  color: #777676;
 }
 #now {
   color: #ffc1b4;
 }
 #future {
-  color: #adfee6;
+  color: #80d4bb;
 }
 .description {
   white-space: pre-wrap;
@@ -84,20 +84,17 @@ th#time.hour {
 }
 
 .past {
-  background-color: #eed9d7;
-  opacity: 90%;
+  background-color: #777676;
   color: var(--dark);
 }
 
 .present {
-  background-color: #ffc1b4;
-  opacity: 90%;
+  background-color: #f3c4ba;
   color: var(--dark);
 }
 
 .future {
-  background-color: #adfee6;
-  opacity: 70%;
+  background-color: #80d4bb;
   color: var(--dark);
 }
 
@@ -107,7 +104,7 @@ th#time.hour {
 }
 
 .fa:hover {
-  color: #5bdbdd;
+  color: #ff896e;
   /* transition: all 0.3s ease-in-out; */
   transition: all 0.3s ease, background-position 1ms;
 }
