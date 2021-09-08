@@ -78,11 +78,6 @@ th#time.hour {
   letter-spacing: 0.15em;
 }
 
-.table-bordered td,
-.table-bordered th {
-  border: 1px solid #ffad9b;
-}
-
 .past {
   background-color: #777676;
   color: var(--dark);
@@ -99,12 +94,12 @@ th#time.hour {
 }
 
 .fa {
-  color: #ffbbac;
+  color: #fcd4cb;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .fa:hover {
-  color: #a4dfff;
+  color: #ffbbac;
   /* transition: all 0.3s ease-in-out; */
   transition: all 0.3s ease, background-position 1ms;
   cursor: pointer;
