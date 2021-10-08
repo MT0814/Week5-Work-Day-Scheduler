@@ -1,10 +1,10 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-## My Task
+## Description 
 
-Used jQuery, bootstrap, moment.js to create a simple calendar application that allows a user to save events for each hour of the day.
+A simple work day scheduler for easily adding or deleting hourly tasks.
 
-## User Story
+### User Story
 
 ```md
 AS AN employee with a busy schedule
@@ -12,7 +12,7 @@ I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 ```
 
-## Acceptance Criteria
+### Acceptance Criteria
 
 ```md
 GIVEN I am using a daily planner to create a schedule
@@ -29,6 +29,15 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 ```
+
+## Technology used
+
+Used jQuery, bootstrap, moment.js to create a simple calendar application that allows a user to save events for each hour of the day.
+
+
+## License
+
+[![License: MIT License](https://img.shields.io/badge/License-MIT%20License-yellow.svg)](https://www.gnu.org/licenses/MIT%20License)
 
 ## Others
 
