@@ -37,7 +37,8 @@ Used jQuery, bootstrap, moment.js to create a simple calendar application that a
 
 ## License
 
-[![License: MIT License](https://img.shields.io/badge/License-MIT%20License-yellow.svg)](https://www.gnu.org/licenses/MIT%20License)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 ## Others
 
